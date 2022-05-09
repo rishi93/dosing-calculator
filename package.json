@@ -7,7 +7,7 @@
     "build": "tsc",
     "prestart": "npm run build",
     "start": "nodemon .",
-    "test": "mocha -r ts-node/register test/**/*.ts --exit"
+    "test": "NODE_ENV=test mocha --timeout 10000 -r ts-node/register test/**/*.ts --exit"
   },
   "keywords": [],
   "author": "rishi93",
