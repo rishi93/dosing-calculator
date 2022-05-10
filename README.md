@@ -1,6 +1,6 @@
 # Dosing Calculator
 
-Built with ExpressJS, Typescript, MongoDB
+Built with ExpressJS, Typescript, MongoDB  
 Tests written with Mocha and ChaiHttp
 Documentation with Swagger, OpenAPI specification
 
